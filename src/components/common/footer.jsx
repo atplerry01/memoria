@@ -42,7 +42,7 @@ export default class Footer extends Component {
             </div>
              */}
             <div className="copyrigh text-center">
-                <p>© 2018 Your Company. All Rights Reserved. Designed By <a href="#">RS Theme</a></p>
+                <p>© 2019. All Rights Reserved.</p>
                 <div className="social-links">
                     <ul>
                         <li><a href="#"><i className="fa fa-twitter"></i></a></li>

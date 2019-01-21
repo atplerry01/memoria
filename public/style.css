@@ -3183,9 +3183,11 @@ button {
   background-color: rgba(0, 0, 0, 0.3);
   z-index: 1;
 }
+
 .rs-team .team-item .team-img {
   position: relative;
 }
+
 .rs-team .team-item .team-img .normal-text {
   position: absolute;
   text-align: center;
@@ -3196,7 +3198,7 @@ button {
   left: 50%;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
-  background-color: rgba(217, 8, 69, 0.7);
+  background-color: rgba(217, 8, 69, 0.3);
   transition: .3s ease all;
   z-index: 10;
 }
@@ -3374,7 +3376,7 @@ button {
   padding-left: 15px;
 }
 .rs-team.rs-team2 .normal-text {
-  clip-path: polygon(100% 100%, 0% 100%, 50% -95%);
+  /* clip-path: polygon(100% 100%, 0% 100%, 50% -95%); */
 }
 .rs-team#rs-team3 .share-icons {
   max-width: 230px;

@@ -8,6 +8,7 @@ export default class Gallery extends Component {
       <React.Fragment>
 
       <Header />
+
       <div className="rs-breadcrumbs">
           <img src="images/banner/about.jpg" alt="" style={{ height: "160px" }} />
           <div className="breadcrumbs-inner-shape">
@@ -24,32 +25,32 @@ export default class Gallery extends Component {
           </div>
       </div>
 
-      <div class="rs-event-details">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-md-12">
-                        <div class="event-details-content">
-                            <div class="event-title">
+      <div className="rs-event-details">
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-8 col-md-12">
+                        <div className="event-details-content">
+                            <div className="event-title">
                                 <a href="events-details.html">New Year Music Festival And Award Show</a>
                             </div>
-                            <div class="event-meta">
-                                <div class="event-date">
-                                    <i class="fa fa-calendar"></i>
+                            <div className="event-meta">
+                                <div className="event-date">
+                                    <i className="fa fa-calendar"></i>
                                     <span>28 June 2017</span>
                                 </div>
-                                <div class="event-time">
-                                    <i class="fa fa-clock-o"></i>
+                                <div className="event-time">
+                                    <i className="fa fa-clock-o"></i>
                                     <span>12.30AM-05.30PM</span>
                                 </div>
-                                <div class="event-location">
-                                    <i class="fa fa-map-marker"></i>
+                                <div className="event-location">
+                                    <i className="fa fa-map-marker"></i>
                                     <span>Venue A, Main Campus</span>
                                 </div>
                             </div>
-                            <div class="event-img">
-                                <img src="images/events/event-details.jpg" alt="Event Details Images" />
+                            <div className="event-img">
+                                <img src="images/memo/gallery/1.png" alt="Event Details Images" />
                             </div>
-                            <div class="event-desc">
+                            <div className="event-desc">
                                 <p>
                                     A university event license follows the same format as the standard event license, except this event is co-branded with a university name (e.g., “TEDxNYU”). This means that the event is hosted by that college or university, so you’ll need permission from that school to hold the event and to use the university's name. Usually, the audience of a university event are students.
                                 </p>
@@ -60,90 +61,51 @@ export default class Gallery extends Component {
                             
                             <div id="googleMap"></div>
                             
-                            <div class="share-area">
-                                <div class="row rs-vertical-middle">
-                                    <div class="col-md-4">
-                                        <div class="book-btn">
-                                            <a href="#" class="primary-btn">Buy Now ticket</a>
+                            <div className="share-area">
+                                <div className="row rs-vertical-middle">
+                                    <div className="col-md-4">
+                                        <div className="book-btn">
+                                            <a href="#" className="primary-btn">Buy Now ticket</a>
                                         </div>
                                     </div>
-                                    <div class="col-md-8">
-                                        <div class="share-inner">
+                                    <div className="col-md-8">
+                                        <div className="share-inner">
                                             <span>You Can Share It :</span>
-                                            <a href="#"><i class="fa fa-facebook"></i> Facebok</a>
-                                            <a href="#"><i class="fa fa-twitter"></i> Twitter</a>
-                                            <a href="#"><i class="fa fa-google"></i> Google</a>
+                                            <a href="#"><i className="fa fa-facebook"></i> Facebok</a>
+                                            <a href="#"><i className="fa fa-twitter"></i> Twitter</a>
+                                            <a href="#"><i className="fa fa-google"></i> Google</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-12 mmt-40">
-                        <div class="sidebar-area">
-                            <div class="search-box">
-                                <h3 class="title">Search Event</h3>
-                                <div class="box-search">
-                                    <input class="form-control" placeholder="Search Here ..." name="srch-term" id="srch-term" type="text" />
-                                    <button class="btn btn-default" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-                                </div>
-                            </div>
-                            <div class="cate-box">
-                                <h3 class="title">Categories</h3>
+                    <div className="col-lg-4 col-md-12 mmt-40">
+                        <div className="sidebar-area">
+                           
+                            <div className="cate-box">
+                                <h3 className="title">Categories</h3>
                                 <ul>
                                     <li>
-                                        <i class="fa fa-angle-right" aria-hidden="true"></i> <a href="#">Business <span>(05)</span></a>
+                                        <i className="fa fa-angle-right" aria-hidden="true"></i> <a href="#">Business <span>(05)</span></a>
                                     </li>
                                     <li>
-                                        <i class="fa fa-angle-right" aria-hidden="true"></i> <a href="#">Entertainment <span>(07)</span></a>
+                                        <i className="fa fa-angle-right" aria-hidden="true"></i> <a href="#">Entertainment <span>(07)</span></a>
                                     </li>
                                     <li>
-                                        <i class="fa fa-angle-right" aria-hidden="true"></i> <a href="#">Sports <span>(09)</span></a>
+                                        <i className="fa fa-angle-right" aria-hidden="true"></i> <a href="#">Sports <span>(09)</span></a>
                                     </li>
                                     <li>
-                                        <i class="fa fa-angle-right" aria-hidden="true"></i> <a href="#">Educational <span>(08)</span></a>
+                                        <i className="fa fa-angle-right" aria-hidden="true"></i> <a href="#">Educational <span>(08)</span></a>
                                     </li>
                                     <li>
-                                        <i class="fa fa-angle-right" aria-hidden="true"></i> <a href="#">Medical <span>(04)</span></a>
+                                        <i className="fa fa-angle-right" aria-hidden="true"></i> <a href="#">Medical <span>(04)</span></a>
                                     </li>
                                 </ul>
                             </div>
-                            <div class="latest-courses">
-                                <h3 class="title">Popular posts</h3>
-                                <div class="post-item">
-	                                <div class="post-img">
-	                                    <a href="blog-details.html"><img src="images/blog-details/sm1.jpg" alt="" title="News image" /></a>
-	                                </div>
-	                                <div class="post-desc">
-	                                    <h4><a href="blog-details.html">Most Anticipated Report For The Event </a></h4>
-	                                    <span class="duration">Admin
-	                                    </span> 
-	                                    <span class="date">28 Jun 2018</span>
-	                                </div>
-	                            </div>
-	                            <div class="post-item">
-	                                <div class="post-img">
-	                                    <a href="blog-details.html"><img src="images/blog-details/sm2.jpg" alt="" title="News image" /></a>
-	                                </div>
-	                                <div class="post-desc">
-	                                    <h4><a href="blog-details.html">Most Anticipated Report For The Event </a></h4>
-	                                    <span class="duration">Admin</span> 
-	                                    <span class="date">28 Jun 2018</span>
-	                                </div>
-	                            </div>
-	                            <div class="post-item">
-	                                <div class="post-img">
-	                                    <a href="blog-details.html"><img src="images/blog-details/sm3.jpg" alt="" title="News image" /></a>
-	                                </div>
-	                                <div class="post-desc">
-	                                    <h4><a href="blog-details.html">Most Anticipated Report For The Event </a></h4>
-	                                    <span class="duration">Admin </span> 
-	                                    <span class="date">28 Jun 2018</span>
-	                                </div>
-	                            </div> 
-                            </div>
-                            <div class="tags-cloud clearfix">
-                                <h3 class="title">Tags</h3>
+                           
+                            <div className="tags-cloud clearfix">
+                                <h3 className="title">Tags</h3>
                                 <ul>
                                     <li>
                                         <a href="#">Music</a>
@@ -176,7 +138,6 @@ export default class Gallery extends Component {
                 </div>
             </div>
         </div>
-
 
       <div className="gallery-section-page pt-100 pb-70">
             <div className="gallery-section-area">
