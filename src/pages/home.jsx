@@ -24,12 +24,20 @@ export default class Home extends Component {
                 <div className="row">
                     <div className="col-lg-6 col-md-12">
                         <div className="sec-title2">
-                            <span>Welcome to Eventsia</span>
-                            <h2>About The Event Organizer</h2>      
+                            <span>Welcome to Goolde Memoria</span>
+                            <h2>About GCETT Alumni 1968</h2>      
                         </div>
                         <div className="about-des">
-                            <p>In a professional context it often happens that private or corporate clients corder a publication to be made and presented with the actual content still not being ready. Think of a news blog that's filled with content hourly on the day of going live. However, reviewers tend to be distracted by comprehensible content, say, a random text copied from a newspaper or the internet. The are likely to focus on the text, disregarding the layout and its elements.</p>
-                            <a className="primary-btn" href="about.html">Read more</a>
+                        <p>
+                           
+                            The college was established at Berhampore on 18th July 1927 and now under the administrative 
+                            control of Directorate of Technical Education Govt Of West Bengal. In 1963 a 4 year B Sc. (Tech. ) 
+                            degree was started and the degree was subsequently converted into B Tech since 1998 under the aegis 
+                            of University of Calcutta In 2004, the institute was accredited by the National Board of Accreditation (NBA)
+                            
+                        </p>
+
+                            <a className="primary-btn" href="/about">Read more</a>
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-12">

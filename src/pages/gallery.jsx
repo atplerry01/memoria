@@ -83,17 +83,17 @@ export default class Gallery extends Component {
                     <div className="col-lg-4 col-md-12 mmt-40">
                         <div className="sidebar-area">
                            
-                            <div className="cate-box">
+                            {/* <div className="cate-box">
                                 <h3 className="title">Categories</h3>
                                 <ul>
                                     <li>
-                                        <i className="fa fa-angle-right" aria-hidden="true"></i> <a href="#">Business <span>(05)</span></a>
+                                        <i className="fa fa-angle-right" aria-hidden="true"></i> <a href="#">Technology <span>(05)</span></a>
                                     </li>
                                     <li>
-                                        <i className="fa fa-angle-right" aria-hidden="true"></i> <a href="#">Entertainment <span>(07)</span></a>
+                                        <i className="fa fa-angle-right" aria-hidden="true"></i> <a href="#">Fabric Industry <span>(07)</span></a>
                                     </li>
                                     <li>
-                                        <i className="fa fa-angle-right" aria-hidden="true"></i> <a href="#">Sports <span>(09)</span></a>
+                                        <i className="fa fa-angle-right" aria-hidden="true"></i> <a href="#">Alumni <span>(09)</span></a>
                                     </li>
                                     <li>
                                         <i className="fa fa-angle-right" aria-hidden="true"></i> <a href="#">Educational <span>(08)</span></a>
@@ -102,19 +102,19 @@ export default class Gallery extends Component {
                                         <i className="fa fa-angle-right" aria-hidden="true"></i> <a href="#">Medical <span>(04)</span></a>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> */}
                            
                             <div className="tags-cloud clearfix">
                                 <h3 className="title">Tags</h3>
                                 <ul>
                                     <li>
-                                        <a href="#">Music</a>
+                                        <a href="#">Fabrics</a>
                                     </li>
                                     <li>
-                                        <a href="#">Charity</a>
+                                        <a href="#">Technology</a>
                                     </li>
                                     <li>
-                                        <a href="#">festival</a>
+                                        <a href="#">Alumni</a>
                                     </li>
                                     <li>
                                         <a href="#">Cirimony</a>
