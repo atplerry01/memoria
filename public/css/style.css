@@ -116,7 +116,7 @@ a:hover {
   color: #c7073f;
 }
 ul {
-  list-style: outside none none;
+  /* list-style: outside none none; */
   margin: 0;
   padding: 0;
 }
@@ -3330,7 +3330,7 @@ button {
   display: inline-block;
   position: relative;
   transition: all 0.3s ease-in-out 0s;
-  padding: 34px;
+  padding: 10px;
 }
 .rs-team .team-item .team-social li a {
   display: block;

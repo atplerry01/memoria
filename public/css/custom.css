@@ -5,3 +5,20 @@
 #rs-slider .slide-content .slider-title {
     font-size: 0px !important;    
 }
+
+.rs-event-details div.event-title {
+    font-size: 44px !important;
+}
+
+/* ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+} */
+
+.rs-team .team-item .team-social li {
+    display: inline-block;
+    position: relative;
+    transition: all 0.3s ease-in-out 0s;
+    padding: 10px;
+}

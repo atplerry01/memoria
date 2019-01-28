@@ -29,24 +29,15 @@ export default class Gallery extends Component {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-8 col-md-12">
+
                         <div className="event-details-content">
-                            <div className="event-title">
-                                <a href="events-details.html">New Year Music Festival And Award Show</a>
+
+                            <div className="sec-title3 text-center">
+                                <h2><i>The B & W Nostalgia</i></h2>
+                                <span>College of Textile Technology, Berhampore</span>
+                                <span>Final Year BSc. (Tech) - 1972</span>
                             </div>
-                            <div className="event-meta">
-                                <div className="event-date">
-                                    <i className="fa fa-calendar"></i>
-                                    <span>28 June 2017</span>
-                                </div>
-                                <div className="event-time">
-                                    <i className="fa fa-clock-o"></i>
-                                    <span>12.30AM-05.30PM</span>
-                                </div>
-                                <div className="event-location">
-                                    <i className="fa fa-map-marker"></i>
-                                    <span>Venue A, Main Campus</span>
-                                </div>
-                            </div>
+                        
                             <div className="event-img">
                                 <img src="images/memo/gallery/1.png" alt="Event Details Images" />
                             </div>
@@ -58,27 +49,53 @@ export default class Gallery extends Component {
                                     For a university event type, your focus or theme should be multidisciplinary and broad, and address a variety of topics. You’ll want to feature a diversity of speakers from across several disciplines, and speakers from the university where you’re holding your event. To get an idea of what you want the focus of your event, A university event license follows the same format as the standard event license, except this event is co-branded with a university.
                                 </p>
                             </div>
-                            
-                            <div id="googleMap"></div>
-                            
-                            <div className="share-area">
-                                <div className="row rs-vertical-middle">
-                                    <div className="col-md-4">
-                                        <div className="book-btn">
-                                            <a href="#" className="primary-btn">Buy Now ticket</a>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-8">
-                                        <div className="share-inner">
-                                            <span>You Can Share It :</span>
-                                            <a href="#"><i className="fa fa-facebook"></i> Facebok</a>
-                                            <a href="#"><i className="fa fa-twitter"></i> Twitter</a>
-                                            <a href="#"><i className="fa fa-google"></i> Google</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                           
                         </div>
+
+                            <div className="event-details-content">
+
+                                <div className="sec-title3 text-center">
+                                    <h2><i>The B & W Nostalgia</i></h2>
+                                    <span>College of Textile Technology, Berhampore</span>
+                                    <span>Final Year BSc. (Tech) - 1972</span>
+                                </div>
+
+                                <div className="event-img">
+                                    <img src="images/memo/gallery/1.png" alt="Event Details Images" />
+                                </div>
+                                <div className="event-desc">
+                                    <p>
+                                        A university event license follows the same format as the standard event license, except this event is co-branded with a university name (e.g., “TEDxNYU”). This means that the event is hosted by that college or university, so you’ll need permission from that school to hold the event and to use the university's name. Usually, the audience of a university event are students.
+                                    </p>
+                                    <p>
+                                        For a university event type, your focus or theme should be multidisciplinary and broad, and address a variety of topics. You’ll want to feature a diversity of speakers from across several disciplines, and speakers from the university where you’re holding your event. To get an idea of what you want the focus of your event, A university event license follows the same format as the standard event license, except this event is co-branded with a university.
+                                    </p>
+                                </div>
+
+                            </div>
+
+
+                            <div className="event-details-content">
+
+                                <div className="sec-title3 text-center">
+                                    <h2><i>The B & W Nostalgia</i></h2>
+                                    <span>College of Textile Technology, Berhampore</span>
+                                    <span>Final Year BSc. (Tech) - 1972</span>
+                                </div>
+
+                                <div className="event-img">
+                                    <img src="images/memo/gallery/1.png" alt="Event Details Images" />
+                                </div>
+                                <div className="event-desc">
+                                    <p>
+                                        A university event license follows the same format as the standard event license, except this event is co-branded with a university name (e.g., “TEDxNYU”). This means that the event is hosted by that college or university, so you’ll need permission from that school to hold the event and to use the university's name. Usually, the audience of a university event are students.
+    </p>
+                                    <p>
+                                        For a university event type, your focus or theme should be multidisciplinary and broad, and address a variety of topics. You’ll want to feature a diversity of speakers from across several disciplines, and speakers from the university where you’re holding your event. To get an idea of what you want the focus of your event, A university event license follows the same format as the standard event license, except this event is co-branded with a university.
+    </p>
+                                </div>
+
+                            </div>
                     </div>
                     <div className="col-lg-4 col-md-12 mmt-40">
                         <div className="sidebar-area">

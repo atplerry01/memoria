@@ -1,0 +1,177 @@
+export const blogContent = [
+    {
+        id: 'yarn-dyed-apparel',
+        title: 'Value addition in yarn dyed apparel',
+        imagePath: 'images/blog/a.jpg',
+        summary: 'The Indian Textile Industry is very competitive &always thrives for innovation for its survival.',
+        body: 'J.K. Rowling',
+        pages: `<div class="rs-event-details">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-12">
+                    <div class="event-details-content">
+                        <div class="event-title">
+                            <a href="events-details.html">New Year Music Festival And Award Show</a>
+                        </div>
+                        <div class="event-meta">
+                            <div class="event-date">
+                                <i class="fa fa-calendar"></i>
+                                <span>28 June 2017</span>
+                            </div>
+                            <div class="event-time">
+                                <i class="fa fa-clock-o"></i>
+                                <span>12.30AM-05.30PM</span>
+                            </div>
+                            <div class="event-location">
+                                <i class="fa fa-map-marker"></i>
+                                <span>Venue A, Main Campus</span>
+                            </div>
+                        </div>
+                        <div class="event-img">
+                            <img src="images/blog/1.jpg" alt="Event Details Images" />
+                        </div>
+                        <div class="event-desc">
+                            <p>
+                                A university event license follows the same format as the standard event license, except this event is co-branded with a university name (e.g., “TEDxNYU”). This means that the event is hosted by that college or university, so you’ll need permission from that school to hold the event and to use the university's name. Usually, the audience of a university event are students.
+                            </p>
+                            <p>
+                                For a university event type, your focus or theme should be multidisciplinary and broad, and address a variety of topics. You’ll want to feature a diversity of speakers from across several disciplines, and speakers from the university where you’re holding your event. To get an idea of what you want the focus of your event, A university event license follows the same format as the standard event license, except this event is co-branded with a university.
+                            </p>
+                        </div>
+                        
+                        <!-- map -->
+                        <div id="googleMap"></div>
+                        <!-- map end -->
+                        
+                        <div class="share-area">
+                            <div class="row rs-vertical-middle">
+                                <div class="col-md-4">
+                                    <div class="book-btn">
+                                        <a href="#" class="primary-btn">Buy Now ticket</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="share-inner">
+                                        <span>You Can Share It :</span>
+                                        <a href="#"><i class="fa fa-facebook"></i> Facebok</a>
+                                        <a href="#"><i class="fa fa-twitter"></i> Twitter</a>
+                                        <a href="#"><i class="fa fa-google"></i> Google</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 mmt-40">
+                    <div class="sidebar-area">
+                        <div class="search-box">
+                            <h3 class="title">Search Event</h3>
+                            <div class="box-search">
+                                <input class="form-control" placeholder="Search Here ..." name="srch-term" id="srch-term" type="text">
+                                <button class="btn btn-default" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                            </div>
+                        </div><!-- .search-box end -->
+                        <div class="cate-box">
+                            <h3 class="title">Categories</h3>
+                            <ul>
+                                <li>
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i> <a href="#">Business <span>(05)</span></a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i> <a href="#">Entertainment <span>(07)</span></a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i> <a href="#">Sports <span>(09)</span></a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i> <a href="#">Educational <span>(08)</span></a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i> <a href="#">Medical <span>(04)</span></a>
+                                </li>
+                            </ul>
+                        </div><!-- .cate-box end -->
+                        <div class="latest-courses">
+                            <h3 class="title">Popular posts</h3>
+                            <div class="post-item">
+                                <div class="post-img">
+                                    <a href="blog-details.html"><img src="images/blog-details/sm1.jpg" alt="" title="News image"></a>
+                                </div>
+                                <div class="post-desc">
+                                    <h4><a href="blog-details.html">Most Anticipated Report For The Event </a></h4>
+                                    <span class="duration">Admin
+                                    </span> 
+                                    <span class="date">28 Jun 2018</span>
+                                </div>
+                            </div><!-- .post-item end -->
+                            <div class="post-item">
+                                <div class="post-img">
+                                    <a href="blog-details.html"><img src="images/blog-details/sm2.jpg" alt="" title="News image"></a>
+                                </div>
+                                <div class="post-desc">
+                                    <h4><a href="blog-details.html">Most Anticipated Report For The Event </a></h4>
+                                    <span class="duration">Admin</span> 
+                                    <span class="date">28 Jun 2018</span>
+                                </div>
+                            </div><!-- .post-item end -->
+                            <div class="post-item">
+                                <div class="post-img">
+                                    <a href="blog-details.html"><img src="images/blog-details/sm3.jpg" alt="" title="News image"></a>
+                                </div>
+                                <div class="post-desc">
+                                    <h4><a href="blog-details.html">Most Anticipated Report For The Event </a></h4>
+                                    <span class="duration">Admin </span> 
+                                    <span class="date">28 Jun 2018</span>
+                                </div>
+                            </div><!-- .post-item end --> 
+                        </div>
+                        <div class="tags-cloud clearfix">
+                            <h3 class="title">Tags</h3>
+                            <ul>
+                                <li>
+                                    <a href="#">Music</a>
+                                </li>
+                                <li>
+                                    <a href="#">Charity</a>
+                                </li>
+                                <li>
+                                    <a href="#">festival</a>
+                                </li>
+                                <li>
+                                    <a href="#">Cirimony</a>
+                                </li>
+                                <li>
+                                    <a href="#">Fair</a>
+                                </li>
+                                <li>
+                                    <a href="#">Widding</a>
+                                </li>
+                                <li>
+                                    <a href="#">world</a>
+                                </li>
+                                <li>
+                                    <a href="#">Confarence</a>
+                                </li>
+                            </ul>
+                        </div><!-- .tags-cloud end --> 
+                    </div><!-- .sidebar-area end --> 
+                </div>
+            </div>
+        </div>
+    </div>
+        `
+    },
+    {
+        id: 'emotional-intelligence',
+        title: 'Harry Potter and the Chamber of Secrets',
+        imagePath: 'images/blog/b.jpg',
+        summary: 'The Indian Textile Industry is very competitive &always thrives for innovation for its survival.',
+        body: 'J.K. Rowling',
+        pages: {
+            main: 'main body',
+            content: `
+            main content
+            only`
+        }
+    },
+];

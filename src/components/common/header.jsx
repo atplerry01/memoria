@@ -25,8 +25,9 @@ export default class Header extends Component {
                       <li><Link to="/about">About</Link></li>
                       <li><Link to="/sponsors">Sponsors</Link></li>
                       <li><Link to="/gallery">Gallery</Link></li>
-                      <li><Link to="/contact">Contact</Link></li>
                       <li><Link to="/alumni">Alumni</Link></li>
+                      <li><Link to="/blogs">Blogs</Link></li>
+                      <li><Link to="/contact">Contact</Link></li>
                     </ul>
                   </nav>
                   <div className="buy-tickets">
