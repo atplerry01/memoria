@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 
 export default class Header extends Component {
@@ -23,16 +23,16 @@ export default class Header extends Component {
                     <ul className="nav-menu">
                       <li><a href="/">Home</a></li>
                       <li><Link to="/about">About</Link></li>
-                      <li><Link to="/sponsors">Sponsors</Link></li>
+                      {/* <li><Link to="/sponsors">Sponsors</Link></li> */}
                       <li><Link to="/gallery">Gallery</Link></li>
                       <li><Link to="/alumni">Alumni</Link></li>
                       <li><Link to="/blogs">Blogs</Link></li>
                       <li><Link to="/contact">Contact</Link></li>
                     </ul>
                   </nav>
-                  <div className="buy-tickets">
+                  {/* <div className="buy-tickets">
                     <Link to="/advert" className="primary-btn" data-animation-in="lightSpeedIn" data-animation-out="animate-out">View Advert</Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

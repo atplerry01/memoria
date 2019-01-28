@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import renderHTML from 'react-render-html';
 import Header from "../components/common/header";
-import { blogContent } from "../constant/content";
+import { blogContent } from "../constant/blogs";
 
 
 export default class BlogDetail extends Component {
