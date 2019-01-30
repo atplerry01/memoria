@@ -30,9 +30,9 @@ export default class Blogs extends Component {
                   </div>
                   <div className="blog-details">
                     <h4 className="blog-title">
-                      <a href="blog-details.html">
+                      <Link to={linkUrl}>
                         {entity.title}
-                      </a>
+                      </Link>
                     </h4>
 
                     <p>
