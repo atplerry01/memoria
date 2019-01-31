@@ -9,6 +9,7 @@ import BlogDetail from '../pages/blogdetail';
 import Blogs from '../pages/blogs';
 import Contact from '../pages/contact';
 import Gallery from '../pages/gallery';
+import Gallery2 from '../pages/gallery2';
 import Home from '../pages/home';
 import Sponsor from '../pages/sponsors';
 import Test from '../pages/_test';
@@ -23,6 +24,7 @@ class App extends Component {
           <Route path="/about" exact component={About} />
           <Route path="/sponsors" exact component={Sponsor} />
           <Route path="/gallery" exact component={Gallery} />
+          <Route path="/gallery-two" exact component={Gallery2} />
           <Route path="/contact" exact component={Contact} />
           <Route path="/alumni" exact component={Alumni} />
           <Route path="/alumni/:id" exact component={AlumniDetail} />
@@ -33,7 +35,6 @@ class App extends Component {
           <Footer />
       </React.Fragment>
       </Router>
-     
     );
   }
 }

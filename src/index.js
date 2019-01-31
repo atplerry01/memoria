@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route } from "react-router-dom";
+import { Route, Router } from "react-router-dom";
 import App from './app/App';
-import { history } from "./_helpers/history";
 import * as serviceWorker from './serviceWorker';
+import { history } from "./_helpers/history";
 
 const e = React.createElement;
 
@@ -13,9 +13,7 @@ class LikeButton extends React.Component {
     this.state = { liked: false };
   }
 
-  componentWillMount() {
-    console.log('ok');
-    
+  componentWillMount() {    
     if (history.location.pathname === '/' || history.location.pathname === '') {
         this.setState({ isHome: true});
         console.log('isHome');
@@ -27,7 +25,7 @@ class LikeButton extends React.Component {
     if (!isHome) {
         // ReactDOM.findDOMNode(this.refs.["rbc-toolbar-label"]).style.display='none';
         document.querySelector('#homeSection').style.display='none';
-    };
+    }
 
     return e(
       'div',

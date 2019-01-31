@@ -23,8 +23,14 @@ export default class Header extends Component {
                     <ul className="nav-menu">
                       <li><a href="/">Home</a></li>
                       <li><Link to="/about">About</Link></li>
-                      {/* <li><Link to="/sponsors">Sponsors</Link></li> */}
-                      <li><Link to="/gallery">Gallery</Link></li>
+                      <li><Link to="/sponsors">Sponsors</Link></li>
+                      <li class="menu-item-has-children">
+                        <a href="/gallery">Gallery</a>
+                        <ul class="sub-menu">
+                          <li><a href="/gallery">Gallery One</a></li>
+                          <li><a href="/gallery-two">Gallery Two</a></li>
+                        </ul>
+                      </li>
                       <li><Link to="/alumni">Alumni</Link></li>
                       <li><Link to="/blogs">Blogs</Link></li>
                       <li><Link to="/contact">Contact</Link></li>
